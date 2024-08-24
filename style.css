@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+
+
+.container{
+    min-height: 88vh;
+    background-color: rgb(86, 85, 85);
+    max-width: 50vw;
+    margin: auto;
+    margin-top: 10px;
+
+
+}
+.container h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+   
+
+}
+.container form label{
+    font-size: 40px;
+}
+.header{
+    background-color: rgb(70, 72, 73);
+}
+.container form{
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    gap: 10px;
+}
+.container form input[type="number"], select{
+    font-size: 25px;
+}
+.option{
+    cursor: pointer;
+}
+.footer {
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    text-align:  center;
+    font-size: 10px;
+}
+.submitbtn{
+    margin-top: 20px;
+    width: 144px;
+    padding: 12px;
+    font-size: 20px;
+    background-color: rgba(115, 119, 119, 0.753);
+    border-radius: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+
+}
+nav ul li{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    list-style: none;
+    margin: 10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all;
+    transition: 500ms;
+}
+nav ul li a:hover{
+  color: rgb(177, 168, 168);
+  transform: scale(3);
+
+  
+}
+nav ul{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding-top: 10px;
+}
+nav {
+    min-height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+margin: 20px;
+/* padding-top: 10px; */
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+padding-top: 10px;
+}
+.output table{
+    border: 2px solid black;
+    width: 25vw;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.output{
+    display: none;
+}
+.table h3{
+    /* margin-left: 60px; */
+    text-align: center;
+
+}

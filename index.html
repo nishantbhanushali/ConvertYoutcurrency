@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCurrnecyConverter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"> MyCurrencyConverter</div>
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="about">About Us</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+        <div class="container">
+        <div class="header">
+            <h1>Choose a Currency to Convert</h1>
+        </div>
+            <form action="/action">
+                <label for="">Choose a Currency : </label>
+                <select id="baseCurrency" name="currency" >
+                <option class="option"value="INR">INDIA</option>
+                <option class="option" value="EURO">ENGLAND</option>
+                <option class="option" value="USD">USA</option>
+            </select>
+            <label for="">Choose a quantity : </label>
+            <input id ="quantity" type="number" min="1" max = "100000">
+            <button class="submitbtn">submit</button>
+        </form>
+        <div class="output">
+        <h3>Here is your convert values in different currrency</h3>
+       
+        <table>
+            <thead>
+                <tr>
+                    <th>Currency</th>
+                    <th>Currency Code</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+            
+            </tbody>
+            </table>
+        </div>
+        </div>
+        
+   
+    
+    <footer class ="footer" >
+        copyright &copy: All Right Reserved
+
+    </footer>
+    <script src="currency.js"></script>
+</body>
+</html>
